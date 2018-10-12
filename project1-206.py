@@ -126,7 +126,8 @@ def mySortPrint(a,col,fileName):
 		last_item = di['Last']
 		email_item = di['Email'] 
 
-		outfile.write(first_item + ", " + last_item + ", " + email_item)
+		outfile.write(first_item + "," + last_item + "," + email_item)
+		outfile.write('\n')
 
 	outfile.close()
 
